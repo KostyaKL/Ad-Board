@@ -2,13 +2,17 @@ package com.tkdroid.ad_board;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.os.Bundle;
+import android.widget.FrameLayout;
 
 import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdLoader;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.nativead.NativeAd;
+import com.google.android.gms.ads.nativead.NativeAdOptions;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,5 +43,4 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-    }
 }
